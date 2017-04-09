@@ -15,7 +15,7 @@ This set of python scripts is a real-time engine which loads news feeds from som
 - Scipy
 - Pandas
 - Sklearn
-- nltk
+- Nltk
 
 # How to use it
 - Set project root to project folder directory.
