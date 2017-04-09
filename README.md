@@ -19,8 +19,8 @@ This set of python scripts is a real-time engine which loads news feeds from som
 
 # How to use it
 - Set project root to project folder directory.
-- Extract ``classifiers\news_data.zip`` under the folder ``classifiers``
-- Download the w2v pre-trained data from ... and put it under the folder ``tweet_data\w2v_trained_data``
+- Extract ``classifiers\news_data.zip`` under folder ``classifiers``
+- Download the w2v pre-trained data from ... and put it under folder ``tweet_data\w2v_trained_data``
 - Simply run script `main\app.py` to run the engine.
 
 # classification algorithms
