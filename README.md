@@ -1,4 +1,4 @@
-# tweet_classifier
+# Tweet Classifier
 This set of python scripts is a real-time engine which loads news feeds from some well-known news agencies twitter channels and identifies if they are imporant or not. The important news is pushed to users. The following tasks are performed by the engine:
 1. Collects, reads tweets data using twitter_api and transforms it into a csv file.
 2. Trains the topic classifier using external training data to predict new news feed topic. The topics are technology, politic, sport, entertainment and business (supervised learning).
