@@ -2,10 +2,10 @@
 This set of python scripts is a real-time engine which loads news feeds from some well-known news agencies twitter channels and identifies if they are imporant or not. The important news in each news-topic category is identified and pushed to users. The following tasks are performed by the engine:
 1. Collects, reads tweets data using twitter_api and transforms it into a csv format.
 2. Trains the topic classifier using external training dataset to predict new news feed (query) topic. The topics are technology, politic, sport, entertainment and business (supervised learning).
-3. Trains the hot classifier using a pre-trained word2vec data to distinguish the hot news from the other news (unsupervised learning).
-4. For every 10 minutes, the engine downloads new news feeds and groups them into similar topics and identifies if they are important or not. 
-5. Identifies best tweet in each topic.
-6. Pushes at most two real-time tweets to users each day.
+3. Trains the hot classifier using a pre-trained word2vec data to distinguish hot news from the other ones (unsupervised learning).
+4. Every 10 minutes, the engine downloads new news feeds and groups them into similar topics and identifies if they are important or not. 
+5. Identifies the best tweet for every topic.
+6. Pushes at most two real-time important (best) tweets to users each day.
 7. Stores the notified tweets. 
 
 # Dependencies
@@ -16,9 +16,11 @@ This set of python scripts is a real-time engine which loads news feeds from som
 - Pandas
 - Sklearn
 - nltk
+
 # How to use it
 - Set project root to project folder directory.
 - Simply run script `main\app.py` to run the engine.
+
 # classification algorithms
 ## Topic classifier (supervised learning)
 The classifier takes the tweets and place them into one of k topic classes.The classifier uses the database consisting 
@@ -72,6 +74,12 @@ The classifier takes tweets and identifies hot ones. For this purpose, the class
 6. lda: Latent Dirichlet Allocation (more info: https://radimrehurek.com/gensim/models/ldamodel.html)
 7. lem: LogEntropy model (more info: https://radimrehurek.com/gensim/models/logentropy_model.html)
 
+For comments, updates and patch submissions, please contact:
+```
+Ali Nadaf, phd
+Data Scientist
+<ali.nadaf@gmail.com>
+```
 
 # References
 1. D. Greene and P. Cunningham. "Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering", Proc. ICML 2006.
