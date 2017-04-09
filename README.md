@@ -18,10 +18,10 @@ This set of python scripts is a real-time engine which loads news feeds from som
 - Nltk
 
 # How to use it
-- Set project root to project folder directory.
-- Extract ``classifiers\news_data.zip`` under folder ``classifiers``
-- Download the w2v pre-trained data (``vectors.text``) from https://drive.google.com/file/d/0B21S11HaS5mxY0xfVnU3Q1VqNTA/view?usp=sharing and put it under folder ``tweet_data\w2v_trained_data``
-- Simply run script `main\app.py` to run the engine.
+1. Set project root to project folder directory.
+2. Extract ``classifiers\news_data.zip`` under folder ``classifiers``
+3. Download the w2v pre-trained data (``vectors.text``) from https://drive.google.com/file/d/0B21S11HaS5mxY0xfVnU3Q1VqNTA/view?usp=sharing and put it under folder ``tweet_data\w2v_trained_data``
+4. Simply run script `main\app.py` to run the engine and enjoy!! :).
 
 # classification algorithms
 ## Topic classifier (supervised learning)
